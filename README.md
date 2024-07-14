@@ -3,6 +3,25 @@ API construída como projeto final do bootcamp Santander Dio Java Back end 2024
 
 ![Default_Gostaria_de_criar_uma_imagem_ilustrativa_para_uma_API_0](https://github.com/user-attachments/assets/c206a0f2-31f0-4911-aa48-e23d2c78e768)
 
+🌿🦁📊 A API de Zoológico: Gerenciamento Eficiente e Divertido! 🚀🐾
+
+A API de Zoológico é projetada para fornecer um sistema de gerenciamento eficiente para um zoológico fictício, permitindo a gestão de 🐒🐘🐧 animais deste zoológico fictício. Através desta API, é possível realizar operações de CRUD (Create, Read, Update, Delete) para manipular informações essenciais do zoológico. 🛠️💬
+
+Recursos Principais 📋
+1. Animais
+
+O recurso de animais permite adicionar, atualizar, listar e remover informações sobre os animais residentes no zoológico. Cada animal é representado por um conjunto de atributos, incluindo nome, espécie e habitat. 🐾🌳
+
+Exemplo de uso:
+
+GET /api/animais: Retorna a lista de todos os animais no zoológico.
+POST /api/animais: Adiciona um novo animal ao zoológico.
+PUT /api/animais/{id}: Atualiza os detalhes de um animal específico.
+DELETE /api/animais/{id}: Remove um animal do zoológico.
+
+Estrutura da API 🏗️
+A API de Zoológico é construída com base nos princípios RESTful, utilizando endpoints intuitivos e seguros para realizar operações sobre os recursos mencionados. 🔐🌐
+
 ## Diagrama de classes
 
 ``` mermaid
