@@ -19,6 +19,14 @@ POST /api/animais: Adiciona um novo animal ao zoológico.
 PUT /api/animais/{id}: Atualiza os detalhes de um animal específico.
 DELETE /api/animais/{id}: Remove um animal do zoológico.
 
+Pretendo realizar atualizações em breve do sistema, adicionando dois novos recursos: 
+
+2. Visitantes
+O recurso de visitantes permite o gerenciamento das pessoas que visitam o zoológico. Cada visitante é identificado por um nome e idade, e pode ser associado a eventos especiais ou promoções do zoológico. 🎟️👨‍👩‍👧‍👦
+
+3. Funcionários
+O recurso de funcionários permite o gerenciamento dos colaboradores que trabalham no zoológico. Cada funcionário possui um nome e cargo, e pode ser atribuído a diferentes áreas de responsabilidade dentro do zoológico. 🧑‍💻🔧
+
 Estrutura da API 🏗️
 A API de Zoológico é construída com base nos princípios RESTful, utilizando endpoints intuitivos e seguros para realizar operações sobre os recursos mencionados. 🔐🌐
 
